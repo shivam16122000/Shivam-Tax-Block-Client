@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Shivam-Tax-Block-Client/static/css/main.60696ca8.chunk.css",
+    "main.js": "/Shivam-Tax-Block-Client/static/js/main.028bb190.chunk.js",
+    "main.js.map": "/Shivam-Tax-Block-Client/static/js/main.028bb190.chunk.js.map",
+    "runtime-main.js": "/Shivam-Tax-Block-Client/static/js/runtime-main.d4eb8515.js",
+    "runtime-main.js.map": "/Shivam-Tax-Block-Client/static/js/runtime-main.d4eb8515.js.map",
+    "static/css/2.0cfad52a.chunk.css": "/Shivam-Tax-Block-Client/static/css/2.0cfad52a.chunk.css",
+    "static/js/2.1d777179.chunk.js": "/Shivam-Tax-Block-Client/static/js/2.1d777179.chunk.js",
+    "static/js/2.1d777179.chunk.js.map": "/Shivam-Tax-Block-Client/static/js/2.1d777179.chunk.js.map",
+    "index.html": "/Shivam-Tax-Block-Client/index.html",
+    "static/css/2.0cfad52a.chunk.css.map": "/Shivam-Tax-Block-Client/static/css/2.0cfad52a.chunk.css.map",
+    "static/css/main.60696ca8.chunk.css.map": "/Shivam-Tax-Block-Client/static/css/main.60696ca8.chunk.css.map",
+    "static/js/2.1d777179.chunk.js.LICENSE.txt": "/Shivam-Tax-Block-Client/static/js/2.1d777179.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4eb8515.js",
+    "static/css/2.0cfad52a.chunk.css",
+    "static/js/2.1d777179.chunk.js",
+    "static/css/main.60696ca8.chunk.css",
+    "static/js/main.028bb190.chunk.js"
+  ]
+}
