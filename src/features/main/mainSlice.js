@@ -20,6 +20,7 @@ export const fetchUsers = createAsyncThunk('main/fetchUsers', (userId) => {
         .then((response) => response.json())
         .then((response) => {
             console.log(response.data);
+            localStorage.setItem('noOfLoans', response.data.length);
             return response.data;
         })
         .catch((error) => {

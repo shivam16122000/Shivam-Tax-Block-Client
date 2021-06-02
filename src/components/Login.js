@@ -12,8 +12,7 @@ import { fetchUsers } from '../features/main/mainSlice';
 const useStyles = makeStyles((theme) => ({
     main: {
         width: '100vw',
-        margin: 0,
-        overflowX: 'hidden'
+        margin: 0
     },
     formItem: {
         margin: '1.5rem 3rem',
@@ -105,7 +104,7 @@ function Login(props) {
                     const userIde = localStorage.getItem('userId');
                     dispatch(fetchUsers(userIde));
                     history.push('/');
-                    props.handleValue(0);
+                    props.setValue(0);
                 } else {
                     setLoginError('Wrong Credentials !');
                 }

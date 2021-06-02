@@ -9,7 +9,8 @@ import moment from 'moment';
 
 const useStyles = makeStyles((theme) => ({
     rootDiv: {
-        overflowX: 'hidden'
+        //   overflowX: 'hidden'
+        width: '98vw'
     },
     root: {
         width: '50vw',
@@ -49,13 +50,6 @@ function ViewAll() {
             You Have {noOfLoans} Loan
         </Typography>
     );
-    console.log('formist is below');
-    const [loading, setLoading] = useState(
-        <Typography variant="h3" className={classes.head}>
-            ... Loading
-        </Typography>
-    );
-    console.log(formList);
 
     const display = formList.map((item, id) => (
         <Grid item>
@@ -177,10 +171,10 @@ function ViewAll() {
 
     return (
         <div className={classes.rootDiv}>
-            <div>{formList.length === 0 ? loading : username}</div>
+            <div>{username}</div>
             <div>{formList.length === 0 ? undefined : loanCount}</div>
             <Grid container direction="column" alignItems="center" spacing={9}>
-                {formList.length === 0 ? loading : display}
+                {formList.length === 0 ? undefined : display}
             </Grid>
         </div>
     );

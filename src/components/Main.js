@@ -17,8 +17,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 const useStyles = makeStyles((theme) => ({
     main: {
         width: '100vw',
-        margin: 0,
-        overflowX: 'hidden'
+        margin: 0
     },
     formItem: {
         margin: '1.5rem 3rem',
@@ -147,7 +146,7 @@ function Main(props) {
                     setExpiryDate(new Date());
                     setMonthlyInstallments(0);
                     history.push('/view');
-                    props.handleValue(1);
+                    props.setValue(1);
                 }
             })
             .catch((err) => console.log('error occured'));

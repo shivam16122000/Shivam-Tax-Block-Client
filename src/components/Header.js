@@ -69,6 +69,10 @@ function Header(props) {
     const history = useHistory();
     const matches = useMediaQuery(theme.breakpoints.down('xs'));
 
+    const handleChange = (e, newValue) => {
+        props.setValue(newValue);
+    };
+
     const handleLogout = () => {
         props.handleLogin(false);
         fetch('https://blooming-journey-42211.herokuapp.com/api/logout')
@@ -80,7 +84,7 @@ function Header(props) {
                 localStorage.setItem('username', '');
                 dispatch(onLogout());
                 history.push('/');
-                props.handleValue(0);
+                props.setValue(0);
             })
             .catch((err) => console.log('error occured in logout'));
     };
@@ -117,16 +121,32 @@ function Header(props) {
 
     //Manages Active Tab logic after refresh
     useEffect(() => {
-        if (window.location.pathname === '/' && props.value != 0) {
-            props.handleValue(0);
-        } else if (window.location.pathname === '/signup' && props.value != 1) {
-            props.handleValue(1);
-        } else if (window.location.pathname === '/login' && props.value != 2) {
-            props.handleValue(2);
-        } else if (window.location.pathname === '/view' && props.value != 1) {
-            props.handleValue(1);
+        if (
+            window.location.href ===
+                'https://shivam16122000.github.io/Shivam-Tax-Block-Client/#/' &&
+            props.value != 0
+        ) {
+            props.setValue(0);
+        } else if (
+            window.location.href ===
+                'https://shivam16122000.github.io/Shivam-Tax-Block-Client/#/signup' &&
+            props.value != 1
+        ) {
+            props.setValue(1);
+        } else if (
+            window.location.href ===
+                'https://shivam16122000.github.io/Shivam-Tax-Block-Client/#/login' &&
+            props.value != 2
+        ) {
+            props.setValue(2);
+        } else if (
+            window.location.href ===
+                'https://shivam16122000.github.io/Shivam-Tax-Block-Client/#/view' &&
+            props.value != 1
+        ) {
+            props.setValue(1);
         }
-    }, [props.value]);
+    }, [props.value, props]);
 
     return (
         <React.Fragment>
@@ -135,7 +155,7 @@ function Header(props) {
                     <Toolbar>
                         <Tabs
                             className={classes.tabContainer}
-                            onChange={props.handleValue}
+                            onChange={handleChange}
                             value={props.value}
                             indicatorColor="primary"
                         >

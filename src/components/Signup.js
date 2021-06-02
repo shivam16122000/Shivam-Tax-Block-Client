@@ -10,8 +10,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 const useStyles = makeStyles((theme) => ({
     main: {
         width: '100vw',
-        margin: 0,
-        overflowX: 'hidden'
+        margin: 0
     },
     formItem: {
         margin: '1.5rem 3rem',
@@ -101,7 +100,7 @@ function Signup(props) {
                     setSignupError('Email Taken !');
                 } else {
                     history.push('/login');
-                    props.handleValue(2);
+                    props.setValue(2);
                 }
             })
             .catch((err) => console.log('error occured'));

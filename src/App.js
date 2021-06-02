@@ -25,9 +25,6 @@ function App() {
     const handleLogin = (value) => {
         setLogin(value);
     };
-    const handleValue = (numb) => {
-        setValue(numb);
-    };
 
     return (
         <ThemeProvider theme={theme}>
@@ -37,7 +34,7 @@ function App() {
                     login={login}
                     handleLogin={handleLogin}
                     value={value}
-                    handleValue={handleValue}
+                    setValue={setValue}
                 />
 
                 {/* Home route for Loan form ,consist of logic and UI */}
@@ -50,7 +47,7 @@ function App() {
                             login={login}
                             handleLogin={handleLogin}
                             value={value}
-                            handleValue={handleValue}
+                            setValue={setValue}
                         />
                     )}
                 />
@@ -64,7 +61,7 @@ function App() {
                             login={login}
                             handleLogin={handleLogin}
                             value={value}
-                            handleValue={handleValue}
+                            setValue={setValue}
                         />
                     )}
                 />
@@ -80,7 +77,7 @@ function App() {
                             login={login}
                             handleLogin={handleLogin}
                             value={value}
-                            handleValue={handleValue}
+                            setValue={setValue}
                         />
                     )}
                 />
