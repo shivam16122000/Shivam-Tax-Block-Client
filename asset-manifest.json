@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/Shivam-Tax-Block-Client/static/css/main.9ee12b76.chunk.css",
-    "main.js": "/Shivam-Tax-Block-Client/static/js/main.173a7582.chunk.js",
-    "main.js.map": "/Shivam-Tax-Block-Client/static/js/main.173a7582.chunk.js.map",
+    "main.js": "/Shivam-Tax-Block-Client/static/js/main.81abcf79.chunk.js",
+    "main.js.map": "/Shivam-Tax-Block-Client/static/js/main.81abcf79.chunk.js.map",
     "runtime-main.js": "/Shivam-Tax-Block-Client/static/js/runtime-main.d4eb8515.js",
     "runtime-main.js.map": "/Shivam-Tax-Block-Client/static/js/runtime-main.d4eb8515.js.map",
     "static/css/2.0cfad52a.chunk.css": "/Shivam-Tax-Block-Client/static/css/2.0cfad52a.chunk.css",
-    "static/js/2.69c9cbc0.chunk.js": "/Shivam-Tax-Block-Client/static/js/2.69c9cbc0.chunk.js",
-    "static/js/2.69c9cbc0.chunk.js.map": "/Shivam-Tax-Block-Client/static/js/2.69c9cbc0.chunk.js.map",
+    "static/js/2.ecf231bf.chunk.js": "/Shivam-Tax-Block-Client/static/js/2.ecf231bf.chunk.js",
+    "static/js/2.ecf231bf.chunk.js.map": "/Shivam-Tax-Block-Client/static/js/2.ecf231bf.chunk.js.map",
     "index.html": "/Shivam-Tax-Block-Client/index.html",
     "static/css/2.0cfad52a.chunk.css.map": "/Shivam-Tax-Block-Client/static/css/2.0cfad52a.chunk.css.map",
     "static/css/main.9ee12b76.chunk.css.map": "/Shivam-Tax-Block-Client/static/css/main.9ee12b76.chunk.css.map",
-    "static/js/2.69c9cbc0.chunk.js.LICENSE.txt": "/Shivam-Tax-Block-Client/static/js/2.69c9cbc0.chunk.js.LICENSE.txt"
+    "static/js/2.ecf231bf.chunk.js.LICENSE.txt": "/Shivam-Tax-Block-Client/static/js/2.ecf231bf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d4eb8515.js",
     "static/css/2.0cfad52a.chunk.css",
-    "static/js/2.69c9cbc0.chunk.js",
+    "static/js/2.ecf231bf.chunk.js",
     "static/css/main.9ee12b76.chunk.css",
-    "static/js/main.173a7582.chunk.js"
+    "static/js/main.81abcf79.chunk.js"
   ]
 }
