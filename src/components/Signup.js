@@ -51,7 +51,12 @@ const useStyles = makeStyles((theme) => ({
     errorHeading: {
         color: 'red',
         fontSize: '1rem',
-        margin: '1rem 3rem'
+        margin: '1rem 3rem',
+        [theme.breakpoints.down('xs')]: {
+            fontSize: '1rem',
+            marginRight: '1rem',
+            marginLeft: '1rem'
+        }
     }
 }));
 
